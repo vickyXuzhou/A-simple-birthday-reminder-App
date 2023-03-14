@@ -189,3 +189,19 @@ main {
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
 }
+.grid{
+  /* width: 50vh; */
+  display: flex;
+  /* grid-template-columns: repeat(3, auto); */
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+.size{
+  width: auto;
+  height: 3em;
+  letter-spacing: var(--spacing);
+  color: #222;
+  font-size: 1.2rem;
+}
